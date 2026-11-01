@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    display: flex;
+    gap:0px;
+}
+.row {
+    list-style: none;
+    display: flex;
+   
+    gap: 1rem;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.register-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.register-btn:hover {
+    background-color: #0056b3;
+}
+header {
+    background-image: url('./banner.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+
+}
+.register-btn  {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    gap: 20px;
+}
+.speakers{
+    width:80%;
+    margin:50px auto;
+    text-align:center;
+}
+.speaker-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+.speaker{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+.speaker img{
+    width:500px;
+    height:300px;
+}
+.nasim{ 
+
+color:rgb(85, 84, 84);  
+}
+.price{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+.price-container{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.price-box{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    width:30%;
+    text-align:left;
+}
+.price-pro{
+    background:rgb(13, 13, 61);
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    width:30%;
+    color:white;
+    text-align:left; 
+}
+.price-team{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+    width:30%;
+    text-align:left;
+}
+button{
+    padding:10px 20px;
+    background-color: #007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
